@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+#logo {
+    width: 20%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(85, 21, 194, 1) 0%, rgba(77, 51, 184, 1) 12%, rgba(68, 85, 173, 1) 39%, rgba(63, 73, 196, 1) 66%, rgba(47, 36, 162, 1) 92%, rgba(35, 10, 139, 1) 100%);
+    flex-direction: column;
+}
+
+section {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .calcul {
+    display: flex;
+}
+
+section .calcul h1 {
+    color: #fff;
+
+}
